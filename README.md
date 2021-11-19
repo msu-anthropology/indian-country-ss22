@@ -3,7 +3,7 @@ indian-country
 
 **This is Indian Country**
 
-http://msu-anthropology.github.io/indian-country/
+https://msu-anthropology.github.io/indian-country-ss22/
 
 This project began as a collaborative project in the Spring 2016 with Dr. Heather Howard's ANP 433: Contemporary American Indian Communities class at Michigan State University. Students all chose a specific issue affecting a particular community on which to write an analytical essay. They created the webpage for the atlas entry (basic HTML, CSS, and some light JS if they felt ambitious), added the pin to the map by adding their site's information (Lat/Lon, time period, brief site description) to a CSV via Google Docs. [Leaflet Omnivore](https://github.com/mapbox/leaflet-omnivore) was used to pull the data out of the CSV and onto a simple Leaflet based map.  In addition to doing focused research and writing on specific American Indian communities, students learned basic HTML/CSS and GitHub (forking, pull requests, comitting, etc.) during the course of the assignment.  
 
