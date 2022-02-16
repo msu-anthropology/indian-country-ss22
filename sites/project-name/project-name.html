@@ -37,3 +37,46 @@
 		          <a href="#" rel="citation" data-toggle="popover" data-content=""><!--this is the required <a href> tag for inline reference popups--></a>
 		          <br><!--this creates a break, to separate things a little better-->
            <p>Lorem ipsum text</p>
+
+                       <p> When creating a paragraph <a href="#" rel="citation" data-toggle="popover" data-content="">
+
+
+
+
+
+
+
+           	</div>
+
+                  <br>
+                    <br>
+
+               <!-- centralized footer -->
+               <div id="central-foot"></div>
+
+               <!-- Bootstrap core JavaScript
+               ================================================== -->
+               <!-- Placed at the end of the document so the pages load faster -->
+               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+               <script src="../js/bootstrap.js"></script>
+               <script src="../js/BootSideMenu.js"></script>
+               <script src="../js/leaflet.js"></script>
+           	<script src="../js/BootSideMenu.js"></script>
+           	<script type="text/javascript">
+           		$(document).ready(function(){
+           			$("a[rel=citation]").popover({
+           				placement : 'top'
+           			}).click(function (p) {
+           				p.preventDefault();
+           				var $self = $(this);
+           				setTimeout(function () {
+           					$self.popover('hide');
+           				}, 4000);
+           			});
+           		});
+           	</script>
+
+               <!-- Calls centralized navbar -->
+               <script src="../../centralize-nav-foot/sites-nav-foot.js"></script>
+
+           	</body></html>
